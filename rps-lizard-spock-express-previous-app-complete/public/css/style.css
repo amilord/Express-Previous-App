@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color:  #012CC8;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Fredoka One', cursive;
+  color: #EAE140;
+}
+ span{
+  font-size: 3em;
+}
+
+#text{
+  font-size: 1em;
+  font-family: 'Fredoka One', cursive;
+}
+
+#player-hand{
+  color: #00C50A;
+font-family: 'Fredoka One', cursive;
+
+}
+
+#bot-hand{
+  color:#E31E1E;
+  font-family: 'Fredoka One', cursive;
+}
+
+#result{
+margin: 0;
+color: #D600C3;
+font-weight: 700;
+}
+
+p{
+  font-size: 1rem;
+  font-family: 'Press Start 2P','Fredoka One', cursive;
+}
+
+#result {
+  font-size: 3.5rem;
+font-family: 'Fredoka One', cursive;
+  margin-bottom: 40px;
+}
+.buttons{
+  margin-top: 5em;
+}
+
+button{
+  width: 18%;
+  font-size: 2.5rem;
+  border-radius: 150px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+button:focus{
+  outline:none;
+}
+
+.animated-button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none !important;
+  transition: transform 250ms;
+  transition-timing-function: ease-out;
+}
+
+.animated-button:hover {
+transform: translateY(-20px);
+}
+
+.chosen {
+  border: 5px dotted  #E31E1E;
+
+}
